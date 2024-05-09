@@ -141,6 +141,9 @@
 ----------------------------------------------------------------------
 ### 6. Miscellaneous
    - Can you discuss a recent cybersecurity trend or threat that you find particularly interesting?
+     
+   - "What happens when you type google.com into your browser's address box and press enter?"
+      > Note: The following GithUb repository is an attempt to answer to this age-old interview question "https://github.com/alex/what-happens-when"
 
 
 
