@@ -45,7 +45,7 @@
    - What are the differences between the 3 prominent cybersecurity standards and frameworks (ISO 27001, NIST Cybersecurity Framework, and CIS Controls)?
    - Given the diverse landscape of cybersecurity standards and frameworks such as ISO 27001, NIST Cybersecurity Framework, and CIS Controls, how would you approach the selection and adoption of relevant standards to ensure a comprehensive and effective cybersecurity posture for our organization?
    - In the context of evolving regulatory requirements and industry-specific compliance mandates, how do you prioritize and align cybersecurity strategies with relevant regulatory frameworks (e.g., GDPR, HIPAA, PCI DSS) while also incorporating best practices from industry-recognized security frameworks?
-   - how would you leverage the risk management and assessment methodologies outlined in NIST Cybersecurity Framework and CIS Controls to proactively identify and address security risks within our organization?
+   - How would you leverage the risk management and assessment methodologies outlined in NIST Cybersecurity Framework and CIS Controls to proactively identify and address security risks within our organization?
    - When designing a cybersecurity dashboard, what are some essential KPIs that you would prioritize for providing visibility into the organization's security posture and enabling effective decision-making by security stakeholders?
    - Can you explain how the selection of KPIs for a cybersecurity dashboard aligns with the organization's overall security objectives and risk management strategy, and how these KPIs contribute to measuring the effectiveness of security controls and incident response capabilities?
    - How do you prioritize and assess security risks within an organization's environment, and what factors influence the decision-making process when addressing these risks?
@@ -134,7 +134,7 @@
    - Can you discuss best practices for integrating web application security into the software development lifecycle, including secure coding practices, input validation, and protection against common vulnerabilities such as injection attacks and cross-site scripting?
    - Can you provide examples of security best practices for securing a DevOps environment?
    - How do you integrate security into the DevOps pipeline?
-   - Why it is important to do both static application security testing (SAST) and dynamic application security testing (DAST)?
+   - Why is it important to do both static application security testing (SAST) and dynamic application security testing (DAST)?
    - Can you explain the concept of "shift-left" in DevSecOps and its significance for security?
    - ...
 
