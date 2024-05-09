@@ -118,7 +118,7 @@
    - ...
 
 ----------------------------------------------------------------------
- #### 5. Secure Software Development & Application Security
+ #### 5. Secure Software Development and Application Security
    - What is the 'OWASP Top 10' and explain its relevance to application security?
    - What is the definiton of the following Web vulnerabilities and how to exploit them:
      + SQL injection (Error-based, Union-base, Blind, ...)
@@ -139,7 +139,7 @@
    - ...
 
 ----------------------------------------------------------------------
-### Others
+### 6. Miscellaneous
    - Can you discuss a recent cybersecurity trend or threat that you find particularly interesting?
 
 
