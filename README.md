@@ -1,17 +1,19 @@
 ## Cybersecurity Job Interview Questions
 
 > Example of job interview questions to test the foundational Cybersecurity knowledge of a senior cybersecurity specialist (e.g., auditor, consultant, architect, penetration tester, etc.) 
-I used ChaptGPT to generate many of these questions and it can be used to quickly generate accurate and "globally OK" answers for them. 
+>
+> I used ChaptGPT to generate many of these questions and it can be used to quickly generate "globally OK" and/or pretty accurate answers for them. 
 
 
 ### Topics (To be updated)
 ----------------------------------------------------------------------
-1. Cybersecurity Architecture and Concepts
-2. Cybersecurity Governance and Risk Management
-3. Security Audit, Penetration testing and Red Teaming
-4. Threat Detection and Incident Response
-5. Secure Software Development and Application Security
-6. Miscellaneous
+- [1. Cybersecurity Architecture and Concepts](#1-Cybersecurity-Architecture-and-Concepts)
+- [2. Cybersecurity Governance and Risk Management](#2-Cybersecurity-Governance-and-Risk-Management)
+- [3. Security Audit, Penetration testing and Red Teaming](#3-Security-Audit-Penetration-testing-and-Red-Teaming)
+- [4. Threat Detection and Incident Response](#4-Threat-Detection-and-Incident-Response)
+- [5. Secure Software Development and Application Security](#5-Secure-Software-Development-and-Application-Security)
+- [6. Miscellaneous](#6-Miscellaneous)
+
 
 ----------------------------------------------------------------------
 #### 1. Cybersecurity Architecture and Concepts
@@ -138,7 +140,7 @@ I used ChaptGPT to generate many of these questions and it can be used to quickl
 
 ----------------------------------------------------------------------
 ### Others
-   - Can you discuss a recent cybersecurity trend or threat that you find particularly concerning?
+   - Can you discuss a recent cybersecurity trend or threat that you find particularly interesting?
 
 
 
