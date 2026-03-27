@@ -196,7 +196,11 @@
      
    - Can you explain the concept of "living off the land" techniques in the context of bypassing Endpoint Detection and Response solutions, and provide examples of how attackers use legitimate system tools for malicious purposes?
      > <b/>Possible answer</b>: Living off the land refers to attackers using legitimate, built‑in system tools (instead of malware) to perform malicious actions in a way that blends into normal activity. Because these tools are trusted and widely used by administrators, malicious activity can be harder to detect. Attackers abuse native binaries, scripts, admin utilities and fileless (in-memory) techniques to avoid dropping suspicious files on disk. 
-          
+
+   - Can you list and explain common privilege escalation techniques for a Windows server, a Linux server, an Oracle or MSSQL database ?
+
+   - How do you assess the security implications of containerization and microservices architectures?
+
    - How do you assess the security implications of containerization and microservices architectures?
      
    - How do you assess the security implications of bring your own device (BYOD) policies during a security audit?
