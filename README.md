@@ -262,7 +262,7 @@
      
    - How would you investigate and respond to a security alert indicating potential malware activity on a corporate endpoint?
      
-   - What are the key components of a SIEM (Security Information and Event Management) system and how do they contribute to SOC operations?
+   - What is a SIEM (Security Information and Event Management) and how does it contribute to SOC operations?
      
    - Can you elaborate on the role of operational resilience in enabling organizations to effectively manage and respond to cyber threats, including the impact of resilience measures on minimizing disruption and maintaining critical services during and after security incidents?
      
