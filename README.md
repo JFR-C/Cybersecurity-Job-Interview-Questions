@@ -25,6 +25,7 @@
      + Three lines of defense
      + Cyber Kill Chain
      + CIA triad (Confidentiality/Integrity/Availability)
+     + Assumed breach concept 
      + PAW (Privileged Access Workstation)
      + ...
 
@@ -186,7 +187,7 @@
    - What are the critical components of planning and executing a red team engagement, including considerations for simulating real-world threat actor behaviors and tactics?
           
    - What are the primary tactics and techniques employed by red teams to simulate advanced persistent threats (APTs) and other sophisticated adversaries?
-      > <b/>Possible answer</b>: Red teams simulate APTs by using tactics and techniques aligned with frameworks like MITRE ATT&CK, focusing on stealth, persistence, and realistic adversary behavior. Common approaches include open‑source intelligence (OSINT), spear‑phishing emails, exploiting unpatched or misconfigured internet-facing services (e.g. VPN without MFA, unpatched web servers, vulnerable websites), developing  customized malicious payloads, using advanced defense evasion techniques to bypass EDR/AV/SIEM and stealth persistence mechanims.
+      > <b/>Possible answer</b>: Red teams simulate APTs by using hacking tactics and techniques (aligned with frameworks like MITRE ATT&CK) focusing on stealth, persistence, and realistic adversary behavior. Common approaches include open‑source intelligence (OSINT), spear‑phishing emails, exploiting unpatched or misconfigured internet-facing services (e.g. VPN without MFA, unpatched web servers, vulnerable websites), developing customized malicious payloads/exploits, using advanced defense evasion techniques to bypass EDR/AV/SIEM as well as stealth persistence mechanisms.
 
    - What are some common methods used by attackers to bypass or evade endpoint security controls, and how can organizations detect and prevent such evasion techniques?
       > <b/>Possible answer</b>: Living‑off‑the‑land (LOTL), Fileless malware, DLL sideloading, Process injection (e.g., reflective loading), direct and indirect syscalls, Obfuscation & encryption, Packing & polymorphism, Disabling or tampering with EDR/AV, Kernel‑level/rootkit techniques, Signed binary abuse (LOLbins), Sandbox evasion, ETW bypass, User‑mode hooking bypass, C2 and shellcode laoders, BYOD, etc.
