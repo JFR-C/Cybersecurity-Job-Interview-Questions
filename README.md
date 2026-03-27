@@ -110,9 +110,13 @@
    - Can you explain the concept of risk appetite and how it influences security governance decisions?
      
    - What is the difference between a risk, a vulnerability and a threat?
+     > <b/>Threat</b> - Something that can cause harm (e.g., attacker, malware, natural disaster).
+     > <b/>Vulnerability</b> - A weakness that could be exploited (e.g., unpatched system).
+     > <b/>Risk</b> - The potential impact when a threat exploits a vulnerability.
      
    - What is Residual Risk?
-     
+     > Residual risk is the risk that remains after all security controls and mitigations have been applied.
+
    - What are the key elements of an effective security governance framework?
      
    - Discuss the role of security awareness training in mitigating human-related security risks and fostering a culture of cybersecurity within an organization.
@@ -138,9 +142,21 @@
      + ...
        
    - What are the key differences between vulnerability assessment, penetration testing and red teaming?
-     
+     - Vulnerability assessment
+       > A vulnerability assessment identifies, analyzes, and prioritizes weaknesses in systems, configurations, and software without attempting to exploit them.
+     - Penetration testing
+       > A penetration test (application or internal/external network) aims to identify and exploit vulnerabilities to demonstrate real‑world impact and determine the extent of what an attacker could achieve.
+     - Read team exercise
+       > Red teaming simulates a realistic adversary using stealthy, multi‑stage attack techniques to evaluate not only the technical security posture but also the organization’s detection, response, and overall resilience.
+ 
    - What are the key phases of a typical penetration testing methodology, and how do they contribute to the overall assessment of an organization's security posture?
-     
+     - Step 1 - Planning and scoping  
+     - Step 2 - Footprinting and Reconnaissance  
+     - Step 3 - Scanning and enumeration  
+     - Step 4 - Gaining access and exploitation (incl. privesc)
+     - Step 5 - Maintaining access
+     - Step 6 - Reporting and recommendations  
+
    - What are the main differences between black-box, white-box, and gray-box penetration testing approaches, and in what scenarios is each approach most suitable for effectively identifying security vulnerabilities?
      
    - How do you determine the scope and objectives of a penetration test, and what considerations are important in defining the rules of engagement for the assessment?
@@ -186,6 +202,17 @@
 #### 4. Threat Detection and Incident Response
 
    - What steps would you take to respond to a major security breach affecting the organization?
+     > 1 - Incident detection, triage and analysis
+     
+     > 2 - Contain the incident immediately to stop further damage (e.g. isolate systems, revoke compromised credentials, block malicious activity).
+          
+     > 3 - Eradicate the threat by removing malicious artifacts, closing exploited vulnerabilities, and strengthening affected controls.
+     
+     > 4 - Recover operations safely through system restoration, validation, and gradual return to normal service.
+     
+     > 5 - Communicate and report to executives, legal, regulators, and impacted stakeholders as required (depending of the local laws it some cases it must be done no later than 24 hours after detection).
+     
+     > 6 - Conduct a post‑incident review / Lesson learned
      
    - Can you explain the significance of the MITRE ATT&CK framework in the context of cybersecurity operations, and provide examples of how organizations can utilize this framework to enhance their threat detection and response capabilities?
      
@@ -212,7 +239,8 @@
    - How does collaboration and information sharing within a SOC environment, both internally and externally with industry peers, contribute to the effectiveness of threat hunting initiatives and the overall security posture of an organization?
      
    - Can you explain the concept of purple teaming and its role in improving cybersecurity defenses?
-     
+     > Purple teaming is a collaborative security exercise where red teams (attackers) and blue teams (defenders) work together in real time to test, refine, and strengthen an organization’s detection and response capabilities, turning adversarial testing into a continuous improvement loop that measurably enhances overall cyber resilience.
+
    - Discuss the role of threat intelligence in informing security operations.
      
    - How would you investigate and respond to a security alert indicating potential malware activity on a corporate endpoint?
