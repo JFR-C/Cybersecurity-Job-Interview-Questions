@@ -81,21 +81,28 @@
    - How would you leverage the risk management and assessment methodologies outlined in NIST Cybersecurity Framework and CIS Controls to proactively identify and address security risks within our organization?
      
    - When designing a cybersecurity dashboard, what are some essential KPIs that you would prioritize for providing visibility into the organization's security posture and enabling effective decision-making by security stakeholders?
-     - Patch, Vulnerability & Obsolescence KPIs
-       > Patch & vulnerability remediation rate (critical/high), Mean time to patch (MTTP), Unsupported / End‑of‑Life systems count, ...
-     - Endpoint, Network & Cloud Security KPIs
-       > EDR & AV coverage (percentage of assets protected), CIS hardening compliance score (servers, databases, endpoints), Cloud security misconfiguration findings (CSPM high‑severity issues), Shadow IT / unmanaged asset detection, ...
-     - Identity & Access Security KPIs
-       > Privileged account recertification progress & results, Periodic password robustness check results, MFA coverage (users, admins, remote access), Dormant and orphaned accounts count, ...
-     - Threat Detection & Incident Response KPIs
-       > Number of high‑severity incidents and alerts, Mean time to detect (MTTD), Mean time to respond (MTTR), Incident containment time, Detection coverage gaps (e.g., % of logs ingested vs. expected), % of MITRE coverage, number of SOC use cases deployed, ...
-     - Human Risk & Awareness KPIs, ...
-       > Phishing simulation failure rate, Security training completion rate, ...
-     - Operational Resilience KPIs
-       > Number of BIAs updated, Backup & recovery success rate, ...
-     - Compliance KPIs
-       > ISO 27K, DORA, NIS2, PCIDSS, ...
-     - Etc.
+     > KPIs - Patch, Vulnerability & Obsolescence
+       > + Patch & vulnerability remediation rate (critical/high), Mean time to patch (MTTP), Unsupported / End‑of‑Life systems count, ...
+     
+     > KPIs - Endpoint, Network & Cloud Security  
+       > + EDR & AV coverage (percentage of assets protected), CIS hardening compliance score (servers, databases, endpoints), Cloud security misconfiguration findings (CSPM high‑severity issues), Shadow IT / unmanaged asset detection, ...
+     
+     > KPIs - Identity & Access Security  
+       > + Privileged account recertification progress & results, Periodic password robustness check results, MFA coverage (users, admins, remote access), Dormant and orphaned accounts count, ...
+     
+     > KPIs - Threat Detection & Incident Response  
+       > + Number of high‑severity incidents and alerts, Mean time to detect (MTTD), Mean time to respond (MTTR), Incident containment time, Detection coverage gaps (e.g., % of logs ingested vs. expected), % of MITRE coverage, number of SOC use cases deployed, ...
+     
+     > KPIs - Human Risk & Awareness
+       > + Phishing simulation failure rate, Security training completion rate, ...
+     
+     > KPIs - Operational Resilience  
+       > + Number of BIAs updated, Backup & recovery success rate, ...
+     
+     > KPIs - ompliance
+       > + ISO 27K, DORA, NIS2, PCIDSS, ...
+     
+     > Etc.
           
    - Can you explain how the selection of KPIs for a cybersecurity dashboard aligns with the organization's overall security objectives and risk management strategy, and how these KPIs contribute to measuring the effectiveness of security controls and incident response capabilities?
      
@@ -140,12 +147,14 @@
      + ...
        
    - What are the key differences between vulnerability assessment, penetration testing and red teaming?
-     - Vulnerability assessment
-       > A vulnerability assessment identifies, analyzes, and prioritizes weaknesses in systems, configurations, and software without attempting to exploit them.
-     - Penetration testing
-       > A penetration test (application or internal/external network) aims to identify and exploit vulnerabilities to demonstrate real‑world impact and determine the extent of what an attacker could achieve.
-     - Read team exercise
-       > Red teaming simulates a realistic adversary using stealthy, multi‑stage attack techniques to evaluate not only the technical security posture but also the organization’s detection, response, and overall resilience.
+     > Vulnerability assessment
+       > + A vulnerability assessment identifies, analyzes, and prioritizes weaknesses in systems, configurations, and software without attempting to exploit them.
+     
+     > Penetration testing
+       > + A penetration test (application or internal/external network) aims to identify and exploit vulnerabilities to demonstrate real‑world impact and determine the extent of what an attacker could achieve.
+     
+     > Read team exercise
+       > + Red teaming simulates a realistic adversary using stealthy, multi‑stage attack techniques to evaluate not only the technical security posture but also the organization’s detection, response, and overall resilience.
  
    - What are the key phases of a typical penetration testing methodology, and how do they contribute to the overall assessment of an organization's security posture?
      > + Step 1 - Planning and scoping  
@@ -204,6 +213,7 @@
 #### 4. Threat Detection and Incident Response
 
    - What steps would you take to respond to a major security breach affecting the organization?
+     > <b/>Possible answer</b>: 
      > + 1 - Incident detection, triage and analysis
      > + 2 - Contain the incident to stop further damage (e.g. isolate systems, revoke compromised accounts, block malicious activity).  
      > + 3 - Eradicate the threat by removing malicious artifacts, closing exploited vulnerabilities, and strengthening affected controls.
@@ -214,7 +224,7 @@
    - Can you explain the significance of the MITRE ATT&CK framework in the context of cybersecurity operations, and provide examples of how organizations can utilize this framework to enhance their threat detection and response capabilities?
      
    - How does the Cyber Kill Chain concept contribute to understanding and mitigating advanced cyber threats, and what role does it play in shaping proactive defense strategies and incident response planning within organizations?
-     > The Cyber Kill Chain is a framework that breaks down an attack into sequential stages (from initial reconnaissance to final actions on objectives). By mapping attacker behavior to these stages, organizations gain a structured way to understand, detect, and disrupt advanced threats. It helps organizations understand how advanced attacks unfold, identify where to detect and disrupt them, and shape proactive defense and incident response strategies that strengthen overall cyber resilience.
+     > <b/>Possible answer</b>: The Cyber Kill Chain is a framework that breaks down an attack into sequential stages (from initial reconnaissance to final actions on objectives). By mapping attacker behavior to these stages, organizations gain a structured way to understand, detect, and disrupt advanced threats. It helps organizations understand how advanced attacks unfold, identify where to detect and disrupt them, and shape proactive defense and incident response strategies that strengthen overall cyber resilience.
 
    - What are the key components of a comprehensive incident response plan?
      
