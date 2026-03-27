@@ -17,6 +17,7 @@
 
 ----------------------------------------------------------------------
 #### 1. Cybersecurity Architecture and Concepts
+
    - Can you explain the following security concepts and their importance in cybersecurity?
      + Defense in depth
      + Principle of least privilege
@@ -31,7 +32,7 @@
      + ...
 
    - What are the key principles and best practices for designing a secure network architecture that effectively mitigates internal and external threats?
-      - <b/>Possible answer</b>: Zero Trust Architecture, Defense‑in‑Depth, MFA (for VPN, VDI, Email, Web portal), WAF, DDoS protection, FW / NGFW, Network Segmentation (e.g. dmz, prod subnets, non-prod subnets, workplace subnets, admin subnet, etc.), Micro‑segmentation & Software-Defined Network Segmentation (Public vs Internal vs Confidential vs Secret zones), Intrusion Prevention System (IPS/IDS), Network Access Control solution (NAC), High Availability & Redundancy, Secure Configuration Baselines, Identity‑centric Security, Encryption in transit, Monitoring & Telemetry, etc.
+      - <b/>Possible answer</b>: Defense‑in‑Depth, MFA (for VPN, VDI, Email, Web portal), WAF, DDoS protection, FW and NGFW, Network Segmentation (e.g. dmz, prod subnets, non-prod subnets, workplace subnets, admin subnet, etc.), Zero Trust Architecture and Micro‑segmentation, Software-Defined Network Segmentation (Public vs Internal vs Confidential vs Secret zones), Intrusion Prevention System (IPS/IDS), Network Access Control solution (NAC), High Availability & Redundancy, Secure Configuration Baselines, Encryption, etc.
 
    - Provide an overview of the main security controls and measures to mitigate external threats.
       - <b/>Possible answer</b>: MFA (VPN, VDI, Email, Web portal), DDoS Protection, Secure Email Gateway, FW/NGFW, WAF, IDS/IPS, EDR/XDR, Vulnerability Management, Patch Management, Threat Intelligence, Network Segmentation, etc. 
@@ -67,26 +68,60 @@
    - ...
 
 ----------------------------------------------------------------------
+
 #### 2. Cybersecurity Governance and Risk Management
+
    - What are the differences between the 3 prominent cybersecurity standards and frameworks (ISO 27001, NIST Cybersecurity Framework, and CIS Controls)?
+     - ISO 27001 is a certifiable, risk‑based information security management standard
+     - The NIST Cybersecurity Framework is a flexible guideline for identifying, protecting, detecting, responding, and recovering from cyber risks
+     - The CIS Controls are a prescriptive, prioritized set of technical safeguards focused on rapidly reducing the most common cyber threats
+     
    - Given the diverse landscape of cybersecurity standards and frameworks such as ISO 27001, NIST Cybersecurity Framework, and CIS Controls, how would you approach the selection and adoption of relevant standards to ensure a comprehensive and effective cybersecurity posture for our organization?
+     
    - In the context of evolving regulatory requirements and industry-specific compliance mandates, how do you prioritize and align cybersecurity strategies with relevant regulatory frameworks (e.g., GDPR, HIPAA, PCI DSS) while also incorporating best practices from industry-recognized security frameworks?
+     
    - How would you leverage the risk management and assessment methodologies outlined in NIST Cybersecurity Framework and CIS Controls to proactively identify and address security risks within our organization?
+     
    - When designing a cybersecurity dashboard, what are some essential KPIs that you would prioritize for providing visibility into the organization's security posture and enabling effective decision-making by security stakeholders?
+     - Vulnerability & Hardening KPIs
+       - Patch & vulnerability remediation rate (critical/high), Mean time to patch (MTTP), CIS hardening compliance score (servers, endpoints, cloud workloads), Unsupported / End‑of‑Life systems count, ...
+     - Threat Detection & Incident Response KPIs
+       - Number of high‑severity incidents and alerts, Mean time to detect (MTTD), Mean time to respond (MTTR), Incident containment time, Detection coverage gaps (e.g., % of logs ingested vs. expected), % of MITRE coverage, number of SOC use cases deployed, ...
+     - Identity & Access Security KPIs
+       - Privileged account recertification progress & results, Periodic password robustness check results, MFA coverage (users, admins, remote access), Dormant and orphaned accounts count, ...
+     - Endpoint, Network & Cloud Security KPIs
+       - EDR & AV coverage (percentage of assets protected), Endpoint security compliance rate, Cloud security misconfiguration findings (CSPM high‑severity issues), Shadow IT / unmanaged asset detection, ...
+     - Human Risk & Awareness KPIs, ...
+       - Phishing simulation failure rate, Security training completion rate, ...
+     - Operational Resilience KPIs
+       - Number of BIAs updated, Backup & recovery success rate, ...
+     - Etc.
+          
    - Can you explain how the selection of KPIs for a cybersecurity dashboard aligns with the organization's overall security objectives and risk management strategy, and how these KPIs contribute to measuring the effectiveness of security controls and incident response capabilities?
+     
    - How do you prioritize and assess security risks within an organization's environment, and what factors influence the decision-making process when addressing these risks?
    - Can you discuss the evolving landscape of cyber threats and how organizations can adapt their risk management strategies to effectively mitigate emerging threats such as ransomware, supply chain attacks, and zero-day vulnerabilities?
+     
    - When developing a comprehensive risk management framework, how do you integrate threat intelligence and ongoing risk assessments to proactively identify and respond to potential cyber threats, and what role does continuous monitoring play in this process?
+     
    - Can you explain the concept of risk appetite and how it influences security governance decisions?
+     
    - What is the difference between a risk, a vulnerability and a threat?
+     
    - What is Residual Risk?
+     
    - What are the key elements of an effective security governance framework?
+     
    - Discuss the role of security awareness training in mitigating human-related security risks and fostering a culture of cybersecurity within an organization.
+     
    - ...
 
 ----------------------------------------------------------------------
+
 #### 3. Security Audit, Penetration testing and Red Teaming
+
    - How do you approach the identification and prioritization of security risks during an audit?
+     
    - Can you walk me through the steps you would take to conduct a security assessment of:
      + an Active Directory?
      + a windows server?
@@ -98,54 +133,99 @@
      + a Citrix gateway?
      + a Wireless network?
      + ...
+       
    - What are the key differences between vulnerability assessment, penetration testing and red teaming?
+     
    - What are the key phases of a typical penetration testing methodology, and how do they contribute to the overall assessment of an organization's security posture?
+     
    - What are the main differences between black-box, white-box, and gray-box penetration testing approaches, and in what scenarios is each approach most suitable for effectively identifying security vulnerabilities?
+     
    - How do you determine the scope and objectives of a penetration test, and what considerations are important in defining the rules of engagement for the assessment?
+     
    - What are the key objectives and benefits of conducting a red team exercise within an organization's cybersecurity program, and how does it differ from traditional penetration testing?
+     
    - What are the critical components of planning and executing a red team engagement, including considerations for simulating real-world threat actor behaviors and tactics?
+     
    - How does the collaboration between the red team and the organization's blue team (defenders) impact the effectiveness of the red teaming exercise, and what are the key principles for fostering constructive collaboration between the two teams?
+     
    - What are the primary tactics and techniques employed by red teams to simulate advanced persistent threats (APTs) and other sophisticated adversaries?
+     
    - In the context of cybersecurity, can you explain what "obfuscation" is and how it can be used as a defense evasion technique?
+     
    - What are some common methods used by attackers to bypass or evade endpoint security controls, and how can organizations detect and prevent such evasion techniques?
+     
    - Can you provide an example of a fileless malware attack and explain how it evades traditional security defenses, and what measures organizations can take to mitigate the risks associated with fileless attacks?
+     
    - Can you explain the concept of "living off the land" techniques in the context of bypassing Endpoint Detection and Response solutions, and provide examples of how attackers use legitimate system tools for malicious purposes?
+     
    - How can attackers leverage techniques such as process injection and reflective DLL injection to evade detection by EDR solutions, and what proactive measures can organizations implement to mitigate these evasion techniques?
+     
    - What are some emerging tactics, such as polymorphic malware and memory-based attacks, that pose challenges to traditional EDR solutions, and how can organizations adapt their defense strategies to effectively detect and respond to these advanced evasion techniques?
+     
    - How do you assess the security implications of containerization and microservices architectures?
+     
    - How do you assess the security implications of bring your own device (BYOD) policies during a security audit?
+     
    - How do you assess the security of IoT devices within an organization's network?
+     
    - How do you assess the security posture of an organization's network infrastructure?
+     
    - How do you conduct a security assessment of an organization's data storage and access controls to ensure data confidentiality and integrity?
+     
    - What are the key considerations when conducting a security assessment of a third-party vendor?
+     
    - What are the key considerations when conducting a security assessment of a software-defined networking (SDN) infrastructure?
+     
    - ...
 
 ----------------------------------------------------------------------
+
 #### 4. Threat Detection and Incident Response
+
    - What steps would you take to respond to a major security breach affecting the organization?
+     
    - Can you explain the significance of the MITRE ATT&CK framework in the context of cybersecurity operations, and provide examples of how organizations can utilize this framework to enhance their threat detection and response capabilities?
+     
    - How does the Cyber Kill Chain concept contribute to understanding and mitigating advanced cyber threats, and what role does it play in shaping proactive defense strategies and incident response planning within organizations?
+     
    - What are the key components of a comprehensive incident response plan?
+     
    - Can you explain the concept of a security incident response playbook and its importance in coordinating effective incident response activities?
+     
    - What are the essential components of a modern Security Operations Center (SOC)?
+     
    - How do you approach designing and implementing a SOC that effectively detects, responds to, and mitigates security incidents in real-time?
+     
    - Discuss the importance of log analysis and monitoring in detecting security incidents.
+     
    - Discuss the role of security automation and orchestration in improving the efficiency and effectiveness of cybersecurity operations.
+     
    - How do you approach integrating threat intelligence feeds and security orchestration, automation, and response (SOAR) platforms into the overall security architecture to enhance threat detection and incident response capabilities?
+     
    - When establishing a Security Operations Center, what are the key components of an effective organizational structure and operational model, and how do these contribute to enhancing the SOC's ability to detect, analyze, and respond to security incidents?
+     
    - Can you explain the concept of threat hunting within a SOC environment, and discuss the proactive strategies and methodologies that SOC analysts can employ to identify and neutralize potential threats that may evade traditional security controls?
+     
    - How does collaboration and information sharing within a SOC environment, both internally and externally with industry peers, contribute to the effectiveness of threat hunting initiatives and the overall security posture of an organization?
+     
    - Can you explain the concept of purple teaming and its role in improving cybersecurity defenses?
+     
    - Discuss the role of threat intelligence in informing security operations.
+     
    - How would you investigate and respond to a security alert indicating potential malware activity on a corporate endpoint?
+     
    - What are the key components of a SIEM (Security Information and Event Management) system and how do they contribute to SOC operations?
+     
    - Can you elaborate on the role of operational resilience in enabling organizations to effectively manage and respond to cyber threats, including the impact of resilience measures on minimizing disruption and maintaining critical services during and after security incidents?
+     
    - ...
 
 ----------------------------------------------------------------------
+
  #### 5. Secure Software Development and Application Security
+ 
    - What is the 'OWASP Top 10' and explain its relevance to application security?
+     
    - What is the definiton of the following Web vulnerabilities and how to exploit them:
      + SQL injection (Error-based, Union-base, Blind, ...)
      + XML External Entity (XXE) injection
@@ -155,17 +235,27 @@
      + Insecure Direct Object Reference
      + Server Side Request Foregery (SSRF)
      + ...
+       
    - What is a buffer-overflow vulnerability?
+     
    - What are the main purpose of 'Address Space Layout Randomization' (ASLR) and 'Data Execution Prevention' (DEP) and how do they enhance system security?
+     
    - Can you discuss best practices for integrating web application security into the software development lifecycle, including secure coding practices, input validation, and protection against common vulnerabilities such as injection attacks and cross-site scripting?
+     
    - Can you provide examples of security best practices for securing a DevOps environment?
+     
    - How do you integrate security into the DevOps pipeline?
+     
    - Why is it important to do both static application security testing (SAST) and dynamic application security testing (DAST)?
+     
    - Can you explain the concept of "shift-left" in DevSecOps and its significance for security?
+     
    - ...
 
 ----------------------------------------------------------------------
+
 ### 6. Miscellaneous
+
    - Can you discuss a recent cybersecurity trend or threat that you find particularly interesting?
      
    - "What happens when you type google.com into your browser's address box and press enter?"
