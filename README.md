@@ -41,8 +41,8 @@
       > <b/>Possible answer</b>: Bastion Host / Jump Server + MFA, PAW (Privileged Access Workstation), Conditional Access, Just‑Enough‑Administration (JEA) and Just‑In‑Time (JIT) Privileged Access, Session Recording, Admin network isolation, Tiered administration, Secure credential hygiene, etc.
 
    - What are the key benefits and challenges associated with AD tiering, and how does it contribute to reducing the risk of unauthorized access and lateral movement by threat actors?
-      > <b/>Benefits</b>: Tier 0/1/2, Strong privilege separation, Reduced lateral movement, Credential theft mitigation, Clear administrative boundaries ...
-      > <b/>Challenges</b>: Cultural/Process change, Legacy system compatibility, etc.
+      > + <b/>Benefits</b>: Tier 0/1/2, Strong privilege separation, Reduced lateral movement, Credential theft mitigation, Clear administrative boundaries ...
+      > + <b/>Challenges</b>: Cultural/Process change, Legacy system compatibility, etc.
 
    - What are the critical considerations when designing an Active Directory security strategy to mitigate common security risks such as credential theft, privilege escalation, and lateral movement within the network?
       > <b/>Possible answer</b>: AD Tiering, PAM & JIT Access (Bastion + MFA), LAPS, Credential Guard & LSA Protection, Secure Service Accounts (gMSA), Group Policy Hardening, ACLs Hardening, ADCS Hardening, Robust Password Policies, Domain Controller Hardening, SMB & LDAP signing, Attack Path Reduction (BloodHound & PingCastle insights), Monitoring for Golden Ticket / Silver Ticket, EDR/AV, SOC AD use cases, etc.
@@ -51,7 +51,7 @@
       > <b/>Possible answer</b>: Vendor Risk Management (Secure procurement processes and Contractual security requirements), Code Signing & Integrity Validation, Dependency Scanning, Zero Trust for Third Parties, Continuous Monitoring of Suppliers, Firmware/Hardware Integrity Checks, etc.
 
    - How would you design a secure architecture for an Internet-facing (B2C) Web application hosted on-premises?
-      > <b/>Possible answer</b>: WAF, anti-DDoS, DMZ, API Gateway, Network segmenation, High Availability & Redundancy, Secure SDLC, Server & Database Hardening, SIEM/XDR, etc.
+      > <b/>Possible answer</b>: WAF, anti-DDoS, API Gateway, Network segmentation, High Availability & Redundancy, Secure SDLC, Server & Database Hardening, SIEM/XDR, etc.
 
    - How would you design a secure architecture for a cloud-based application?
       > <b/>Possible answer</b>: Cloud‑Native WAF / API Protection, Identity‑First Security (IAM, RBAC, ABAC), Network Segmentation (VPC/VNet), CI/CD Security (DevSecOps), Encryption (KMS, BYOK), Cloud Security Posture Management (CSPM), ...
@@ -70,15 +70,29 @@
 
    - What are the differences between the 3 prominent cybersecurity standards and frameworks (ISO 27001, NIST Cybersecurity Framework, and CIS Controls)?
      > <b/>Possible answer</b>: 
-     > + ISO 27001 is a certifiable, risk‑based information security management standard
-     > + The NIST Cybersecurity Framework is a flexible guideline for identifying, protecting, detecting, responding, and recovering from cyber risks
-     > + The CIS Controls are a prescriptive, prioritized set of technical safeguards focused on rapidly reducing the most common cyber threats
-     
-   - Given the diverse landscape of cybersecurity standards and frameworks such as ISO 27001, NIST Cybersecurity Framework, and CIS Controls, how would you approach the selection and adoption of relevant standards to ensure a comprehensive and effective cybersecurity posture for our organization?
-     
-   - In the context of evolving regulatory requirements and industry-specific compliance mandates, how do you prioritize and align cybersecurity strategies with relevant regulatory frameworks (e.g., GDPR, HIPAA, PCI DSS) while also incorporating best practices from industry-recognized security frameworks?
-     
-   - How would you leverage the risk management and assessment methodologies outlined in NIST Cybersecurity Framework and CIS Controls to proactively identify and address security risks within our organization?
+     > + <b/>PISO 27001</b> is an international standard that defines best practices for establishing, implementing, maintaining, and continually improving an Information Security Management System (ISMS) to protect an organization’s data through risk‑based controls.
+     > + <b/>PThe NIST Cybersecurity Framework</b> is a flexible guideline for governing, identifying, protecting, detecting, responding, and recovering from cyber risks
+     > + <b/>PThe CIS Controls</b> are a prescriptive, prioritized set of technical safeguards (like asset inventory, secure configuration, vulnerability management, and logging) focused on rapidly reducing the most common cyber threats
+
+   - What are the CIS Critical Security Controls (Top 18) ?
+     > + Inventory and Control of Enterprise Assets
+     > + Inventory and Control of Software Assets
+     > + Data Protection
+     > + Secure Configuration of Enterprise Assets and Software
+     > + Account Management
+     > + Access Control Management
+     > + Continuous Vulnerability Management
+     > + Audit Log Management
+     > + Email and Web Browser Protections
+     > + Malware Defenses
+     > + Data Recovery
+     > + Network Infrastructure Management
+     > + Network Monitoring and Defense
+     > + Security Awareness and Skills Training
+     > + Service Provider Management
+     > + Application Software Security
+     > + Incident Response Management
+     > + Penetration Testing
      
    - When designing a cybersecurity dashboard, what are some essential KPIs that you would prioritize for providing visibility into the organization's security posture and enabling effective decision-making by security stakeholders?
      > KPIs - Patch, Vulnerability & Obsolescence
