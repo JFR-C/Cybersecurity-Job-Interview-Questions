@@ -22,7 +22,7 @@
      + Principle of least privilege
      + Security by Design
      + AD Tiering
-     + Zero trust
+     + Zero Trust architecture
      + Threat modeling
      + Three lines of defense
      + Cyber Kill Chain
@@ -31,7 +31,7 @@
      + ...
 
    - What are the key principles and best practices for designing a secure network architecture that effectively mitigates internal and external threats?
-      - <b/>Possible answer</b>: Zero Trust Architecture, Defense‑in‑Depth, Network Segmentation (dmz, prod subnets, non-prod subnets, workplace subnets, admin subnet, etc.) Micro‑segmentation & Software Defined Network (SDN), WAF, DDoS Protection, FW/NGFW, IPS/IDS, MFA (VPN, VDI, Email, Web portal), NAC, High Availability & Redundancy, Least Privilege, Secure‑by‑Design, Threat Modeling, Secure Configuration Baselines, Identity‑centric Security, Encryption in transit, Monitoring & Telemetry,    
+      - <b/>Possible answer</b>: Zero Trust Architecture, Defense‑in‑Depth, MFA (for VPN, VDI, Email, Web portal), WAF, DDoS protection, FW / NGFW, Network Segmentation (e.g. dmz, prod subnets, non-prod subnets, workplace subnets, admin subnet, etc.), Micro‑segmentation & Software-Defined Network Segmentation (Public vs Internal vs Confidential vs Secret zones), Intrusion Prevention System (IPS/IDS), Network Access Control solution (NAC), High Availability & Redundancy, Secure Configuration Baselines, Identity‑centric Security, Encryption in transit, Monitoring & Telemetry, etc.
 
    - Provide an overview of the main security controls and measures to mitigate external threats.
       - <b/>Possible answer</b>: MFA (VPN, VDI, Email, Web portal), DDoS Protection, Secure Email Gateway, FW/NGFW, WAF, IDS/IPS, EDR/XDR, Vulnerability Management, Patch Management, Threat Intelligence, Network Segmentation, etc. 
@@ -44,29 +44,29 @@
 
    - What are the key benefits and challenges associated with AD tiering, and how does it contribute to reducing the risk of unauthorized access and lateral movement by threat actors?
       - <b/>Benefits</b>: Tier 0/1/2, Strong privilege separation, Reduced lateral movement, Credential theft mitigation, Clear administrative boundaries ...
-      - <b/>Challenges</b>: Cultural/Process change, Legacy system compatibility, Administrative overhead & operational complexity, ...
+      - <b/>Challenges</b>: Cultural/Process change, Legacy system compatibility, etc.
 
    - What are the critical considerations when designing an Active Directory security strategy to mitigate common security risks such as credential theft, privilege escalation, and lateral movement within the network?
-      - <b/>Possible answer</b>: AD Tiering, PAM & JIT Access (Bastion + MFA), LAPS, Credential Guard & LSA Protection, Secure Service Accounts (gMSA), Group Policy Hardening, ACLs Hardening, ADCS Hardening, Robust Password Policies, Domain Controller Hardening, SMB & LDAP signing, Attack Path Reduction (BloodHound & PingCastle insights), Monitoring for Golden Ticket / Silver Ticket, EDR/AV, SOC AD use cases, ...
+      - <b/>Possible answer</b>: AD Tiering, PAM & JIT Access (Bastion + MFA), LAPS, Credential Guard & LSA Protection, Secure Service Accounts (gMSA), Group Policy Hardening, ACLs Hardening, ADCS Hardening, Robust Password Policies, Domain Controller Hardening, SMB & LDAP signing, Attack Path Reduction (BloodHound & PingCastle insights), Monitoring for Golden Ticket / Silver Ticket, EDR/AV, SOC AD use cases, etc.
 
    - What measures can be implemented to enhance the security of an organization's supply chain and mitigate potential supply chain-related security risks?
-      - <b/>Possible answer</b>: Vendor Risk Management (Secure procurement processes and Contractual security requirements), Code Signing & Integrity Validation, Dependency Scanning, Zero Trust for Third Parties, Continuous Monitoring of Suppliers, Firmware/Hardware Integrity Checks, ...
+      - <b/>Possible answer</b>: Vendor Risk Management (Secure procurement processes and Contractual security requirements), Code Signing & Integrity Validation, Dependency Scanning, Zero Trust for Third Parties, Continuous Monitoring of Suppliers, Firmware/Hardware Integrity Checks, etc.
 
    - How would you design a secure architecture for an Internet-facing (B2C) Web application hosted on-premises?
-      - <b/>Possible answer</b>: WAF, anti-DDoS, DMZ, API Gateway, Network segmenation, High Availability & Redundancy, Secure SDLC, Server & Database Hardening, SIEM/XDR, ...
+      - <b/>Possible answer</b>: WAF, anti-DDoS, DMZ, API Gateway, Network segmenation, High Availability & Redundancy, Secure SDLC, Server & Database Hardening, SIEM/XDR, etc.
 
    - How would you design a secure architecture for a cloud-based application?
       - <b/>Possible answer</b>: Cloud‑Native WAF / API Protection, Identity‑First Security (IAM, RBAC, ABAC), Network Segmentation (VPC/VNet), CI/CD Security (DevSecOps), Encryption (KMS, BYOK), Cloud Security Posture Management (CSPM), ...
         
    - When designing a cloud security architecture, what are the key factors to consider in ensuring data confidentiality, integrity, and availability, as well as compliance with relevant regulations and standards?
-      - <b/>Possible answer</b>: Shared Responsibility Model, Data Classification, Encryption, Key Management, IAM, Compliance (ISO, SOC2, GDPR, PCI), DR/BCP, Secure APIs, Monitoring, Governance & Policy Enforcement, Cloud Security Posture Management (CSPM), ...
+      - <b/>Possible answer</b>: Shared Responsibility Model, Data Classification, Encryption, Key Management, IAM, Compliance (ISO, SOC2, GDPR, PCI), DR/BCP, Secure APIs, Monitoring, Governance & Policy Enforcement, Cloud Security Posture Management (CSPM), etc.
       
    - Why is operational resilience crucial in the context of cybersecurity, and how does it contribute to ensuring the continuity of business operations and the ability to withstand and recover from cyber incidents?
-      - <b/>Possible answer</b>: Crisis Management, Business Continuity Plan (Business Impact Analysis, Recovery Time Objective (RTO), Recovery Point Objective (RPO)), Disaster Recovery Plan (High availability, Failover, Load-balancing, Redundancy, Multi-Datacenter and Multi-Cloud Resilience), Incident Response, Ransomware Preparedness, Chaos Engineering,  Cyber Resilience Frameworks, ...
+      - <b/>Possible answer</b>: Crisis Management, Business Continuity Plan (Business Impact Analysis, Recovery Time Objective (RTO), Recovery Point Objective (RPO)), Disaster Recovery Plan (High availability, Failover, Load-balancing, Redundancy, Multi-Datacenter and Multi-Cloud Resilience), Incident Response, Ransomware Preparedness, Chaos Engineering,  Cyber Resilience Frameworks, etc.
 
              
    - In what ways do emerging technologies such as software-defined networking (SDN), zero trust networking, and secure access service edge (SASE) influence the design and evolution of secure network architectures, and how do these technologies align with the goal of enhancing overall network security and resilience?
-      - <b/>Possible answer</b>: Centralized Policy (SDN), Micro‑segmentation, Identity‑centric Access, Continuous Verification, Cloud‑native Edge Security (SASE), Reduced Attack Surface, Enhanced Visibility, Adaptive Access, Network Agility & Resilience, ...
+      - <b/>Possible answer</b>: Centralized Policy (SDN), Micro‑segmentation, Identity‑centric Access, Continuous Verification, Cloud‑native Edge Security (SASE), Reduced Attack Surface, Enhanced Visibility, Adaptive Access, Network Agility & Resilience, etc.
         
    - ...
 
