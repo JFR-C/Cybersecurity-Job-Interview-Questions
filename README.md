@@ -71,8 +71,8 @@
    - What are the differences between the 3 prominent cybersecurity standards and frameworks (ISO 27001, NIST Cybersecurity Framework, and CIS Controls)?
      > <b/>Possible answer</b>: 
      > + <b/>ISO 27001</b> is an international standard that defines best practices for establishing, implementing, maintaining, and continually improving an Information Security Management System (ISMS) to protect an organization’s data through risk‑based controls.
-     > + <b/>The NIST Cybersecurity Framework</b> is a flexible guideline for governing, identifying, protecting, detecting, responding, and recovering from cyber risks
-     > + <b/>The CIS Controls</b> are a prescriptive, prioritized set of technical safeguards (like asset inventory, secure configuration, vulnerability management, and logging) focused on rapidly reducing the most common cyber threats
+     > + <b/>The NIST Cybersecurity Framework</b> is a flexible guideline for governing, identifying, protecting, detecting, responding, and recovering from cyber risks.
+     > + <b/>The CIS Controls</b> are a prescriptive, prioritized set of technical safeguards (like asset inventory, secure configuration, vulnerability management, and logging) focused on rapidly reducing the most common cyber threats.
 
    - What are the CIS Critical Security Controls (Top 18) ?
      > + Inventory and Control of Enterprise Assets
@@ -117,9 +117,7 @@
        > + ISO 27K, DORA, NIS2, PCIDSS, ...
      
      > Etc.
-          
-   - Can you explain how the selection of KPIs for a cybersecurity dashboard aligns with the organization's overall security objectives and risk management strategy, and how these KPIs contribute to measuring the effectiveness of security controls and incident response capabilities?
-     
+               
    - How do you prioritize and assess security risks within an organization's environment, and what factors influence the decision-making process when addressing these risks?
      
    - Can you discuss the evolving landscape of cyber threats and how organizations can adapt their risk management strategies to effectively mitigate emerging threats such as ransomware, supply chain attacks, and zero-day vulnerabilities?
@@ -135,8 +133,6 @@
      
    - What is Residual Risk?
      > Residual risk is the risk that remains after all security controls and mitigations have been applied.
-
-   - What are the key elements of an effective security governance framework?
      
    - Discuss the role of security awareness training in mitigating human-related security risks and fostering a culture of cybersecurity within an organization.
      
@@ -188,14 +184,12 @@
    - What are the key objectives and benefits of conducting a red team exercise within an organization's cybersecurity program, and how does it differ from traditional penetration testing?
      
    - What are the critical components of planning and executing a red team engagement, including considerations for simulating real-world threat actor behaviors and tactics?
-     
-   - How does the collaboration between the red team and the organization's blue team (defenders) impact the effectiveness of the red teaming exercise, and what are the key principles for fostering constructive collaboration between the two teams?
-     
+          
    - What are the primary tactics and techniques employed by red teams to simulate advanced persistent threats (APTs) and other sophisticated adversaries?
-     
-   - In the context of cybersecurity, can you explain what "obfuscation" is and how it can be used as a defense evasion technique?
-     
+      > <b/>Possible answer</b>: Red teams simulate APTs by using tactics and techniques aligned with frameworks like MITRE ATT&CK, focusing on stealth, persistence, and realistic adversary behavior. Common approaches include open‑source intelligence (OSINT), spear‑phishing emails, exploiting unpatched or misconfigured internet-facing services (e.g. VPN without MFA, unpatched web servers, vulnerable websites), developing  customized malicious payloads, using advanced defense evasion techniques to bypass EDR/AV/SIEM and stealth persistence mechanims.
+
    - What are some common methods used by attackers to bypass or evade endpoint security controls, and how can organizations detect and prevent such evasion techniques?
+      > <b/>Possible answer</b>: Living‑off‑the‑land (LOTL), Fileless malware, DLL sideloading, Process injection (e.g., reflective loading), direct and indirect syscalls, Obfuscation & encryption, Packing & polymorphism, Disabling or tampering with EDR/AV, Kernel‑level/rootkit techniques, Signed binary abuse (LOLbins), Sandbox evasion, ETW bypass, User‑mode hooking bypass, C2 and shellcode laoders, BYOD, etc.
      
    - Can you provide an example of a fileless malware attack and explain how it evades traditional security defenses, and what measures organizations can take to mitigate the risks associated with fileless attacks?
      
