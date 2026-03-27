@@ -186,7 +186,7 @@
    - Can you provide an example of a fileless malware attack and explain how it evades traditional security defenses, and what measures organizations can take to mitigate the risks associated with fileless attacks?
      
    - Can you explain the concept of "living off the land" techniques in the context of bypassing Endpoint Detection and Response solutions, and provide examples of how attackers use legitimate system tools for malicious purposes?
-     > Living off the land refers to attackers using legitimate, built‑in system tools (instead of malware) to perform malicious actions in a way that blends into normal activity. Because these tools are trusted and widely used by administrators, malicious activity can be harder to detect. Attackers abuse native binaries, scripts, admin utilities and fileless (in-memory) techniques to avoid dropping suspicious files on disk. 
+     > <b/>Possible answer</b>: Living off the land refers to attackers using legitimate, built‑in system tools (instead of malware) to perform malicious actions in a way that blends into normal activity. Because these tools are trusted and widely used by administrators, malicious activity can be harder to detect. Attackers abuse native binaries, scripts, admin utilities and fileless (in-memory) techniques to avoid dropping suspicious files on disk. 
      
    - How can attackers leverage techniques such as process injection and reflective DLL injection to evade detection by EDR solutions, and what proactive measures can organizations implement to mitigate these evasion techniques?
      
