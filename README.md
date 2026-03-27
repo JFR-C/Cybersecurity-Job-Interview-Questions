@@ -150,15 +150,18 @@
        > Red teaming simulates a realistic adversary using stealthy, multi‑stage attack techniques to evaluate not only the technical security posture but also the organization’s detection, response, and overall resilience.
  
    - What are the key phases of a typical penetration testing methodology, and how do they contribute to the overall assessment of an organization's security posture?
-     - Step 1 - Planning and scoping  
-     - Step 2 - Footprinting and Reconnaissance  
-     - Step 3 - Scanning and enumeration  
-     - Step 4 - Gaining access and exploitation (incl. privesc)
-     - Step 5 - Maintaining access
-     - Step 6 - Reporting and recommendations  
+     > + Step 1 - Planning and scoping  
+     > + Step 2 - Footprinting and reconnaissance  
+     > + Step 3 - Scanning and enumeration  
+     > + Step 4 - Gaining access
+     > + Step 5 - Exploitation (incl. privesc)
+     > + Step 6 - Reporting and recommendations  
 
    - What are the main differences between black-box, white-box, and gray-box penetration testing approaches, and in what scenarios is each approach most suitable for effectively identifying security vulnerabilities?
-     
+     > + Black‑Box Testing - The pentester has no prior knowledge of the environment — simulating an external attacker.
+     > + White‑Box Testing - The pentester has full knowledge of the environment (architecture, source code, credentials).
+     > + Gray‑Box Testing - The pentester has partial knowledge (e.g., user credentials, high‑level architecture).
+
    - How do you determine the scope and objectives of a penetration test, and what considerations are important in defining the rules of engagement for the assessment?
      
    - What are the key objectives and benefits of conducting a red team exercise within an organization's cybersecurity program, and how does it differ from traditional penetration testing?
@@ -176,6 +179,7 @@
    - Can you provide an example of a fileless malware attack and explain how it evades traditional security defenses, and what measures organizations can take to mitigate the risks associated with fileless attacks?
      
    - Can you explain the concept of "living off the land" techniques in the context of bypassing Endpoint Detection and Response solutions, and provide examples of how attackers use legitimate system tools for malicious purposes?
+     > Living off the land refers to attackers using legitimate, built‑in system tools (instead of malware) to perform malicious actions in a way that blends into normal activity. Because these tools are trusted and widely used by administrators, malicious activity can be harder to detect. Attackers abuse native binaries, scripts, admin utilities and fileless (in-memory) techniques to avoid dropping suspicious files on disk. 
      
    - How can attackers leverage techniques such as process injection and reflective DLL injection to evade detection by EDR solutions, and what proactive measures can organizations implement to mitigate these evasion techniques?
      
@@ -202,17 +206,12 @@
 #### 4. Threat Detection and Incident Response
 
    - What steps would you take to respond to a major security breach affecting the organization?
-     > 1 - Incident detection, triage and analysis
-     
-     > 2 - Contain the incident immediately to stop further damage (e.g. isolate systems, revoke compromised credentials, block malicious activity).
-          
-     > 3 - Eradicate the threat by removing malicious artifacts, closing exploited vulnerabilities, and strengthening affected controls.
-     
-     > 4 - Recover operations safely through system restoration, validation, and gradual return to normal service.
-     
-     > 5 - Communicate and report to executives, legal, regulators, and impacted stakeholders as required (depending of the local laws it some cases it must be done no later than 24 hours after detection).
-     
-     > 6 - Conduct a post‑incident review / Lesson learned
+     > + 1 - Incident detection, triage and analysis
+     > + 2 - Contain the incident to stop further damage (e.g. isolate systems, revoke compromised accounts, block malicious activity).  
+     > + 3 - Eradicate the threat by removing malicious artifacts, closing exploited vulnerabilities, and strengthening affected controls.
+     > + 4 - Recover operations safely through system restoration, validation, and gradual return to normal service.
+     > + 5 - Communicate and report to executives, legal, regulators, and impacted stakeholders as required.
+     > + 6 - Conduct a post‑incident review / Lesson learned
      
    - Can you explain the significance of the MITRE ATT&CK framework in the context of cybersecurity operations, and provide examples of how organizations can utilize this framework to enhance their threat detection and response capabilities?
      
@@ -256,6 +255,17 @@
  #### 5. Secure Software Development and Application Security
  
    - What is the 'OWASP Top 10' and explain its relevance to application security?
+     > OWASP Top 10 – 2021
+     > + A01: Broken Access Control
+     > + A02: Cryptographic Failures
+     > + A03: Injection
+     > + A04: Insecure Design
+     > + A05: Security Misconfiguration
+     > + A06: Vulnerable and Outdated Components
+     > + A07: Identification and Authentication Failures
+     > + A08: Software and Data Integrity Failures
+     > + A09: Security Logging and Monitoring Failures
+     > + A10: Server‑Side Request Forgery (SSRF)
      
    - What is the definiton of the following Web vulnerabilities and how to exploit them:
      + SQL injection (Error-based, Union-base, Blind, ...)
