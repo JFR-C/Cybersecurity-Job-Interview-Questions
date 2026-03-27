@@ -1,6 +1,6 @@
 ## Cybersecurity Job Interview Questions
 
-> Example of job interview questions to test the foundational Cybersecurity knowledge of a senior cybersecurity specialist (e.g., auditor, consultant, architect, security officer, penetration tester, etc.) 
+> Sample interview questions designed to assess the foundational cybersecurity knowledge of senior‑level specialists, including auditors, consultants, architects, security officers, and penetration testers.
 
 ### Topics (To be updated)
 ----------------------------------------------------------------------
