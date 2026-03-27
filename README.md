@@ -63,10 +63,6 @@
       
    - Why is operational resilience crucial in the context of cybersecurity, and how does it contribute to ensuring the continuity of business operations and the ability to withstand and recover from cyber incidents?
       - <b/>Possible answer</b>: Crisis Management, Business Continuity Plan (Business Impact Analysis, Recovery Time Objective (RTO), Recovery Point Objective (RPO)), Disaster Recovery Plan (High availability, Failover, Load-balancing, Redundancy, Multi-Datacenter and Multi-Cloud Resilience), Incident Response, Ransomware Preparedness, Chaos Engineering,  Cyber Resilience Frameworks, etc.
-
-             
-   - In what ways do emerging technologies such as software-defined networking (SDN), zero trust networking, and secure access service edge (SASE) influence the design and evolution of secure network architectures, and how do these technologies align with the goal of enhancing overall network security and resilience?
-      - <b/>Possible answer</b>: Centralized Policy (SDN), Micro‑segmentation, Identity‑centric Access, Continuous Verification, Cloud‑native Edge Security (SASE), Reduced Attack Surface, Enhanced Visibility, Adaptive Access, Network Agility & Resilience, etc.
         
    - ...
 
