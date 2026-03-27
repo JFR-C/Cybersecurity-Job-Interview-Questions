@@ -190,17 +190,13 @@
       > <b/>Possible answer</b>: Red teams simulate APTs by using hacking tactics and techniques (aligned with frameworks like MITRE ATT&CK) focusing on stealth, persistence, and realistic adversary behavior. Common approaches include open‑source intelligence (OSINT), spear‑phishing emails, exploiting unpatched or misconfigured internet-facing services (e.g. VPN without MFA, unpatched web servers, vulnerable websites), developing customized malicious payloads/exploits, using advanced defense evasion techniques to bypass EDR/AV/SIEM as well as stealth persistence mechanisms.
 
    - What are some common methods used by attackers to bypass or evade endpoint security controls, and how can organizations detect and prevent such evasion techniques?
-      > <b/>Possible answer</b>: Living‑off‑the‑land (LOTL), Fileless malware, DLL sideloading, Process injection (e.g., reflective loading), direct and indirect syscalls, Obfuscation & encryption, Packing & polymorphism, Disabling or tampering with EDR/AV, Kernel‑level/rootkit techniques, Signed binary abuse (LOLbins), Sandbox evasion, ETW bypass, User‑mode hooking bypass, C2 and shellcode laoders, BYOD, etc.
+      > <b/>Possible answer</b>: Living‑off‑the‑land (LOTL), Fileless malware, DLL sideloading, Process injection (e.g., reflective loading), direct and indirect syscalls, Obfuscation & encryption, Packing & polymorphism, Disabling or tampering with EDR/AV, Kernel‑level/rootkit techniques, Signed binary abuse (LOLbins), Sandbox evasion, AMSI/ETW bypass, User‑mode hooking bypass, C2 and shellcode laoders, SOC, EDR/XDR, AV, IPS, SIEM, AMSI, ETW, Applocker, etc.
      
    - Can you provide an example of a fileless malware attack and explain how it evades traditional security defenses, and what measures organizations can take to mitigate the risks associated with fileless attacks?
      
    - Can you explain the concept of "living off the land" techniques in the context of bypassing Endpoint Detection and Response solutions, and provide examples of how attackers use legitimate system tools for malicious purposes?
      > <b/>Possible answer</b>: Living off the land refers to attackers using legitimate, built‑in system tools (instead of malware) to perform malicious actions in a way that blends into normal activity. Because these tools are trusted and widely used by administrators, malicious activity can be harder to detect. Attackers abuse native binaries, scripts, admin utilities and fileless (in-memory) techniques to avoid dropping suspicious files on disk. 
-     
-   - How can attackers leverage techniques such as process injection and reflective DLL injection to evade detection by EDR solutions, and what proactive measures can organizations implement to mitigate these evasion techniques?
-     
-   - What are some emerging tactics, such as polymorphic malware and memory-based attacks, that pose challenges to traditional EDR solutions, and how can organizations adapt their defense strategies to effectively detect and respond to these advanced evasion techniques?
-     
+          
    - How do you assess the security implications of containerization and microservices architectures?
      
    - How do you assess the security implications of bring your own device (BYOD) policies during a security audit?
