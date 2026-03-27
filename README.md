@@ -1,9 +1,6 @@
 ## Cybersecurity Job Interview Questions
 
-> Example of job interview questions to test the foundational Cybersecurity knowledge of a senior cybersecurity specialist (e.g., auditor, consultant, architect, penetration tester, etc.) 
->
-> I used ChaptGPT to generate many of these questions and it can be used to quickly generate "globally OK" and/or pretty accurate answers for them. 
-
+> Example of job interview questions to test the foundational Cybersecurity knowledge of a senior cybersecurity specialist (e.g., auditor, consultant, architect, security officer, penetration tester, etc.) 
 
 ### Topics (To be updated)
 ----------------------------------------------------------------------
@@ -72,6 +69,7 @@
 #### 2. Cybersecurity Governance and Risk Management
 
    - What are the differences between the 3 prominent cybersecurity standards and frameworks (ISO 27001, NIST Cybersecurity Framework, and CIS Controls)?
+     > <b/>Possible answer</b>: 
      > ISO 27001 is a certifiable, risk‑based information security management standard
      > The NIST Cybersecurity Framework is a flexible guideline for identifying, protecting, detecting, responding, and recovering from cyber risks
      > The CIS Controls are a prescriptive, prioritized set of technical safeguards focused on rapidly reducing the most common cyber threats
@@ -110,9 +108,9 @@
    - Can you explain the concept of risk appetite and how it influences security governance decisions?
      
    - What is the difference between a risk, a vulnerability and a threat?
-     > <b/>Threat</b> - Something that can cause harm (e.g., attacker, malware, natural disaster).
-     > <b/>Vulnerability</b> - A weakness that could be exploited (e.g., unpatched system).
-     > <b/>Risk</b> - The potential impact when a threat exploits a vulnerability.
+     > + <b/>Threat</b> - Something that can cause harm (e.g., attacker, malware, natural disaster).
+     > + <b/>Vulnerability</b> - A weakness that could be exploited (e.g., unpatched system).
+     > + <b/>Risk</b> - The potential impact when a threat exploits a vulnerability.
      
    - What is Residual Risk?
      > Residual risk is the risk that remains after all security controls and mitigations have been applied.
@@ -158,9 +156,9 @@
      > + Step 6 - Reporting and recommendations  
 
    - What are the main differences between black-box, white-box, and gray-box penetration testing approaches, and in what scenarios is each approach most suitable for effectively identifying security vulnerabilities?
-     > + Black‑Box Testing - The pentester has no prior knowledge of the environment — simulating an external attacker.
-     > + White‑Box Testing - The pentester has full knowledge of the environment (architecture, source code, credentials).
-     > + Gray‑Box Testing - The pentester has partial knowledge (e.g., user credentials, high‑level architecture).
+     > + <b/>Black‑Box Testing</b> - The pentester has no prior knowledge of the environment — simulating an external attacker.
+     > + <b/>White‑Box Testing</b> - The pentester has full knowledge of the environment (architecture, source code, credentials).
+     > + <b/>Gray‑Box Testing</b> - The pentester has partial knowledge (e.g., user credentials, high‑level architecture).
 
    - How do you determine the scope and objectives of a penetration test, and what considerations are important in defining the rules of engagement for the assessment?
      
@@ -216,7 +214,8 @@
    - Can you explain the significance of the MITRE ATT&CK framework in the context of cybersecurity operations, and provide examples of how organizations can utilize this framework to enhance their threat detection and response capabilities?
      
    - How does the Cyber Kill Chain concept contribute to understanding and mitigating advanced cyber threats, and what role does it play in shaping proactive defense strategies and incident response planning within organizations?
-     
+     > The Cyber Kill Chain is a framework that breaks down an attack into sequential stages (from initial reconnaissance to final actions on objectives). By mapping attacker behavior to these stages, organizations gain a structured way to understand, detect, and disrupt advanced threats. It helps organizations understand how advanced attacks unfold, identify where to detect and disrupt them, and shape proactive defense and incident response strategies that strengthen overall cyber resilience.
+
    - What are the key components of a comprehensive incident response plan?
      
    - Can you explain the concept of a security incident response playbook and its importance in coordinating effective incident response activities?
