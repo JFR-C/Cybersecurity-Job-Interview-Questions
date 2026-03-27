@@ -70,9 +70,9 @@
 
    - What are the differences between the 3 prominent cybersecurity standards and frameworks (ISO 27001, NIST Cybersecurity Framework, and CIS Controls)?
      > <b/>Possible answer</b>: 
-     > ISO 27001 is a certifiable, risk‑based information security management standard
-     > The NIST Cybersecurity Framework is a flexible guideline for identifying, protecting, detecting, responding, and recovering from cyber risks
-     > The CIS Controls are a prescriptive, prioritized set of technical safeguards focused on rapidly reducing the most common cyber threats
+     > + ISO 27001 is a certifiable, risk‑based information security management standard
+     > + The NIST Cybersecurity Framework is a flexible guideline for identifying, protecting, detecting, responding, and recovering from cyber risks
+     > + The CIS Controls are a prescriptive, prioritized set of technical safeguards focused on rapidly reducing the most common cyber threats
      
    - Given the diverse landscape of cybersecurity standards and frameworks such as ISO 27001, NIST Cybersecurity Framework, and CIS Controls, how would you approach the selection and adoption of relevant standards to ensure a comprehensive and effective cybersecurity posture for our organization?
      
