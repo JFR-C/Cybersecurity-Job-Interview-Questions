@@ -32,38 +32,38 @@
      + ...
 
    - What are the key principles and best practices for designing a secure network architecture that effectively mitigates internal and external threats?
-      - <b/>Possible answer</b>: Defense‑in‑Depth, MFA (for VPN, VDI, Email, Web portal), WAF, DDoS protection, FW and NGFW, Network Segmentation (e.g. dmz, prod subnets, non-prod subnets, workplace subnets, admin subnet, etc.), Zero Trust Architecture and Micro‑segmentation, Software-Defined Network Segmentation (Public vs Internal vs Confidential vs Secret zones), Intrusion Prevention System (IPS/IDS), Network Access Control solution (NAC), High Availability & Redundancy, Secure Configuration Baselines, Encryption, etc.
+      > <b/>Possible answer</b>: Defense‑in‑Depth, MFA (for VPN, VDI, Email, Web portal), WAF, DDoS protection, FW and NGFW, Network Segmentation (e.g. dmz, prod subnets, non-prod subnets, workplace subnets, admin subnet, etc.), Zero Trust Architecture and Micro‑segmentation, Software-Defined Network Segmentation (Public vs Internal vs Confidential vs Secret zones), Intrusion Prevention System (IPS/IDS), Network Access Control solution (NAC), High Availability & Redundancy, Secure Configuration Baselines, Encryption, etc.
 
    - Provide an overview of the main security controls and measures to mitigate external threats.
-      - <b/>Possible answer</b>: MFA (VPN, VDI, Email, Web portal), DDoS Protection, Secure Email Gateway, FW/NGFW, WAF, IDS/IPS, EDR/XDR, Vulnerability Management, Patch Management, Threat Intelligence, Network Segmentation, etc. 
+      > <b/>Possible answer</b>: MFA (VPN, VDI, Email, Web portal), DDoS Protection, Secure Email Gateway, FW/NGFW, WAF, IDS/IPS, EDR/XDR, Vulnerability Management, Patch Management, Threat Intelligence, Network Segmentation, etc. 
 
    - Provide an overview of the main security controls and measures to mitigate insider threats.
-      - <b/>Possible answer</b>: Privileged Access Management (PAM), Data Loss Prevention (DLP), Strong IAM (MFA, Conditional Access), EDR/XDR, AV, Segregation of Duties (SoD), Just‑In‑Time (JIT) Access, NAC, Network Segmentation (dmz, prod subnets, non-prod subnets, workplace subnets, admin subnet, etc.), Vulnerability Management, Patch Management, Endpoint Hardening, Logging & Auditing, ...
+      > <b/>Possible answer</b>: Privileged Access Management (PAM), Data Loss Prevention (DLP), Strong IAM (MFA, Conditional Access), EDR/XDR, AV, Segregation of Duties (SoD), Just‑In‑Time (JIT) Access, NAC, Network Segmentation (dmz, prod subnets, non-prod subnets, workplace subnets, admin subnet, etc.), Vulnerability Management, Patch Management, Endpoint Hardening, Logging & Auditing, ...
         
    - What are the key security considerations and best practices to control and monitor remote administrative access to critical systems and networks?
-      - <b/>Possible answer</b>: Bastion Host / Jump Server + MFA, PAW (Privileged Access Workstation), Conditional Access, Just‑Enough‑Administration (JEA) and Just‑In‑Time (JIT) Privileged Access, Session Recording, Admin network isolation, Tiered administration, Secure credential hygiene, etc.
+      > <b/>Possible answer</b>: Bastion Host / Jump Server + MFA, PAW (Privileged Access Workstation), Conditional Access, Just‑Enough‑Administration (JEA) and Just‑In‑Time (JIT) Privileged Access, Session Recording, Admin network isolation, Tiered administration, Secure credential hygiene, etc.
 
    - What are the key benefits and challenges associated with AD tiering, and how does it contribute to reducing the risk of unauthorized access and lateral movement by threat actors?
-      - <b/>Benefits</b>: Tier 0/1/2, Strong privilege separation, Reduced lateral movement, Credential theft mitigation, Clear administrative boundaries ...
-      - <b/>Challenges</b>: Cultural/Process change, Legacy system compatibility, etc.
+      > <b/>Benefits</b>: Tier 0/1/2, Strong privilege separation, Reduced lateral movement, Credential theft mitigation, Clear administrative boundaries ...
+      > <b/>Challenges</b>: Cultural/Process change, Legacy system compatibility, etc.
 
    - What are the critical considerations when designing an Active Directory security strategy to mitigate common security risks such as credential theft, privilege escalation, and lateral movement within the network?
-      - <b/>Possible answer</b>: AD Tiering, PAM & JIT Access (Bastion + MFA), LAPS, Credential Guard & LSA Protection, Secure Service Accounts (gMSA), Group Policy Hardening, ACLs Hardening, ADCS Hardening, Robust Password Policies, Domain Controller Hardening, SMB & LDAP signing, Attack Path Reduction (BloodHound & PingCastle insights), Monitoring for Golden Ticket / Silver Ticket, EDR/AV, SOC AD use cases, etc.
+      > <b/>Possible answer</b>: AD Tiering, PAM & JIT Access (Bastion + MFA), LAPS, Credential Guard & LSA Protection, Secure Service Accounts (gMSA), Group Policy Hardening, ACLs Hardening, ADCS Hardening, Robust Password Policies, Domain Controller Hardening, SMB & LDAP signing, Attack Path Reduction (BloodHound & PingCastle insights), Monitoring for Golden Ticket / Silver Ticket, EDR/AV, SOC AD use cases, etc.
 
    - What measures can be implemented to enhance the security of an organization's supply chain and mitigate potential supply chain-related security risks?
-      - <b/>Possible answer</b>: Vendor Risk Management (Secure procurement processes and Contractual security requirements), Code Signing & Integrity Validation, Dependency Scanning, Zero Trust for Third Parties, Continuous Monitoring of Suppliers, Firmware/Hardware Integrity Checks, etc.
+      > <b/>Possible answer</b>: Vendor Risk Management (Secure procurement processes and Contractual security requirements), Code Signing & Integrity Validation, Dependency Scanning, Zero Trust for Third Parties, Continuous Monitoring of Suppliers, Firmware/Hardware Integrity Checks, etc.
 
    - How would you design a secure architecture for an Internet-facing (B2C) Web application hosted on-premises?
-      - <b/>Possible answer</b>: WAF, anti-DDoS, DMZ, API Gateway, Network segmenation, High Availability & Redundancy, Secure SDLC, Server & Database Hardening, SIEM/XDR, etc.
+      > <b/>Possible answer</b>: WAF, anti-DDoS, DMZ, API Gateway, Network segmenation, High Availability & Redundancy, Secure SDLC, Server & Database Hardening, SIEM/XDR, etc.
 
    - How would you design a secure architecture for a cloud-based application?
-      - <b/>Possible answer</b>: Cloud‑Native WAF / API Protection, Identity‑First Security (IAM, RBAC, ABAC), Network Segmentation (VPC/VNet), CI/CD Security (DevSecOps), Encryption (KMS, BYOK), Cloud Security Posture Management (CSPM), ...
+      > <b/>Possible answer</b>: Cloud‑Native WAF / API Protection, Identity‑First Security (IAM, RBAC, ABAC), Network Segmentation (VPC/VNet), CI/CD Security (DevSecOps), Encryption (KMS, BYOK), Cloud Security Posture Management (CSPM), ...
         
    - When designing a cloud security architecture, what are the key factors to consider in ensuring data confidentiality, integrity, and availability, as well as compliance with relevant regulations and standards?
-      - <b/>Possible answer</b>: Shared Responsibility Model, Data Classification, Encryption, Key Management, IAM, Compliance (ISO, SOC2, GDPR, PCI), DR/BCP, Secure APIs, Monitoring, Governance & Policy Enforcement, Cloud Security Posture Management (CSPM), etc.
+      > <b/>Possible answer</b>: Shared Responsibility Model, Data Classification, Encryption, Key Management, IAM, Compliance (ISO, SOC2, GDPR, PCI), DR/BCP, Secure APIs, Monitoring, Governance & Policy Enforcement, Cloud Security Posture Management (CSPM), etc.
       
    - Why is operational resilience crucial in the context of cybersecurity, and how does it contribute to ensuring the continuity of business operations and the ability to withstand and recover from cyber incidents?
-      - <b/>Possible answer</b>: Crisis Management, Business Continuity Plan (Business Impact Analysis, Recovery Time Objective (RTO), Recovery Point Objective (RPO)), Disaster Recovery Plan (High availability, Failover, Load-balancing, Redundancy, Multi-Datacenter and Multi-Cloud Resilience), Incident Response, Ransomware Preparedness, Chaos Engineering,  Cyber Resilience Frameworks, etc.
+      > <b/>Possible answer</b>: Crisis Management, Business Continuity Plan (Business Impact Analysis, Recovery Time Objective (RTO), Recovery Point Objective (RPO)), Disaster Recovery Plan (High availability, Failover, Load-balancing, Redundancy, Multi-Datacenter and Multi-Cloud Resilience), Incident Response, Ransomware Preparedness, Chaos Engineering,  Cyber Resilience Frameworks, etc.
         
    - ...
 
@@ -72,9 +72,9 @@
 #### 2. Cybersecurity Governance and Risk Management
 
    - What are the differences between the 3 prominent cybersecurity standards and frameworks (ISO 27001, NIST Cybersecurity Framework, and CIS Controls)?
-     - ISO 27001 is a certifiable, risk‑based information security management standard
-     - The NIST Cybersecurity Framework is a flexible guideline for identifying, protecting, detecting, responding, and recovering from cyber risks
-     - The CIS Controls are a prescriptive, prioritized set of technical safeguards focused on rapidly reducing the most common cyber threats
+     > ISO 27001 is a certifiable, risk‑based information security management standard
+     > The NIST Cybersecurity Framework is a flexible guideline for identifying, protecting, detecting, responding, and recovering from cyber risks
+     > The CIS Controls are a prescriptive, prioritized set of technical safeguards focused on rapidly reducing the most common cyber threats
      
    - Given the diverse landscape of cybersecurity standards and frameworks such as ISO 27001, NIST Cybersecurity Framework, and CIS Controls, how would you approach the selection and adoption of relevant standards to ensure a comprehensive and effective cybersecurity posture for our organization?
      
@@ -83,23 +83,26 @@
    - How would you leverage the risk management and assessment methodologies outlined in NIST Cybersecurity Framework and CIS Controls to proactively identify and address security risks within our organization?
      
    - When designing a cybersecurity dashboard, what are some essential KPIs that you would prioritize for providing visibility into the organization's security posture and enabling effective decision-making by security stakeholders?
-     - Vulnerability & Hardening KPIs
-       - Patch & vulnerability remediation rate (critical/high), Mean time to patch (MTTP), CIS hardening compliance score (servers, endpoints, cloud workloads), Unsupported / End‑of‑Life systems count, ...
-     - Threat Detection & Incident Response KPIs
-       - Number of high‑severity incidents and alerts, Mean time to detect (MTTD), Mean time to respond (MTTR), Incident containment time, Detection coverage gaps (e.g., % of logs ingested vs. expected), % of MITRE coverage, number of SOC use cases deployed, ...
-     - Identity & Access Security KPIs
-       - Privileged account recertification progress & results, Periodic password robustness check results, MFA coverage (users, admins, remote access), Dormant and orphaned accounts count, ...
+     - Patch, Vulnerability & Obsolescence KPIs
+       > Patch & vulnerability remediation rate (critical/high), Mean time to patch (MTTP), Unsupported / End‑of‑Life systems count, ...
      - Endpoint, Network & Cloud Security KPIs
-       - EDR & AV coverage (percentage of assets protected), Endpoint security compliance rate, Cloud security misconfiguration findings (CSPM high‑severity issues), Shadow IT / unmanaged asset detection, ...
+       > EDR & AV coverage (percentage of assets protected), CIS hardening compliance score (servers, databases, endpoints), Cloud security misconfiguration findings (CSPM high‑severity issues), Shadow IT / unmanaged asset detection, ...
+     - Identity & Access Security KPIs
+       > Privileged account recertification progress & results, Periodic password robustness check results, MFA coverage (users, admins, remote access), Dormant and orphaned accounts count, ...
+     - Threat Detection & Incident Response KPIs
+       > Number of high‑severity incidents and alerts, Mean time to detect (MTTD), Mean time to respond (MTTR), Incident containment time, Detection coverage gaps (e.g., % of logs ingested vs. expected), % of MITRE coverage, number of SOC use cases deployed, ...
      - Human Risk & Awareness KPIs, ...
-       - Phishing simulation failure rate, Security training completion rate, ...
+       > Phishing simulation failure rate, Security training completion rate, ...
      - Operational Resilience KPIs
-       - Number of BIAs updated, Backup & recovery success rate, ...
+       > Number of BIAs updated, Backup & recovery success rate, ...
+     - Compliance KPIs
+       > ISO 27K, DORA, NIS2, PCIDSS, ...
      - Etc.
           
    - Can you explain how the selection of KPIs for a cybersecurity dashboard aligns with the organization's overall security objectives and risk management strategy, and how these KPIs contribute to measuring the effectiveness of security controls and incident response capabilities?
      
    - How do you prioritize and assess security risks within an organization's environment, and what factors influence the decision-making process when addressing these risks?
+     
    - Can you discuss the evolving landscape of cyber threats and how organizations can adapt their risk management strategies to effectively mitigate emerging threats such as ransomware, supply chain attacks, and zero-day vulnerabilities?
      
    - When developing a comprehensive risk management framework, how do you integrate threat intelligence and ongoing risk assessments to proactively identify and respond to potential cyber threats, and what role does continuous monitoring play in this process?
