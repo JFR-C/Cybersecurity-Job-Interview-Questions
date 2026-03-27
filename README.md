@@ -247,7 +247,7 @@
    - How does collaboration and information sharing within a SOC environment, both internally and externally with industry peers, contribute to the effectiveness of threat hunting initiatives and the overall security posture of an organization?
      
    - Can you explain the concept of purple teaming and its role in improving cybersecurity defenses?
-     > Purple teaming is a collaborative security exercise where red teams (attackers) and blue teams (defenders) work together in real time to test, refine, and strengthen an organization’s detection and response capabilities, turning adversarial testing into a continuous improvement loop that measurably enhances overall cyber resilience.
+     > <b/>Possible answer</b>: Purple teaming is a collaborative security exercise where red teams (attackers) and blue teams (defenders) work together in real time to test, refine, and strengthen an organization’s detection and response capabilities, turning adversarial testing into a continuous improvement loop that measurably enhances overall cyber resilience.
 
    - Discuss the role of threat intelligence in informing security operations.
      
@@ -287,18 +287,38 @@
      + ...
        
    - What is a buffer-overflow vulnerability?
+     > A buffer‑overflow vulnerability happens when a program writes more data into a memory buffer than it was designed to hold, causing the extra data to spill into adjacent memory. This can corrupt program execution and, in some cases, allow an attacker to influence the program’s behavior or run unauthorized code.
      
    - What are the main purpose of 'Address Space Layout Randomization' (ASLR) and 'Data Execution Prevention' (DEP) and how do they enhance system security?
-     
+     > + <b/>Address Space Layout Randomization (ASLR)</b> randomizes the memory locations of key process components (like the stack, heap, and libraries), making it much harder for attackers to predict where to inject or execute malicious code.
+     > + <b/>Data Execution Prevention (DEP)</b> marks certain memory regions as non‑executable, preventing code from running in areas meant only for data.
+
    - Can you discuss best practices for integrating web application security into the software development lifecycle, including secure coding practices, input validation, and protection against common vulnerabilities such as injection attacks and cross-site scripting?
      
    - Can you provide examples of security best practices for securing a DevOps environment?
-     
+     > <b/>Possible answer</b>:
+     > + <b/>Integrating security early (Shift‑Left)</b> by embedding code scanning, dependency checks, and threat modeling into the development pipeline.
+     > + <b/>Implementing strong access controls</b> such as least privilege, MFA, and role‑based access for developers, CI/CD systems, and automation tools.
+     > + <b/>Securing CI/CD pipelines</b> by protecting build servers, validating artifacts, and ensuring secrets are stored in secure vaults rather than in code.
+     > + <b/>Using automated security testing</b> (SAST, DAST, container scanning) to detect vulnerabilities continuously.
+     > + <b/>Hardening infrastructure and containers</b> through secure base images, minimal OS footprints, and regular patching.
+     > + <b/>Monitoring and logging across the pipeline</b> to detect anomalies, unauthorized changes, or suspicious deployments.
+     > + <b/>Enforcing secure configuration management</b> with Infrastructure‑as‑Code scanning and policy‑as‑code controls.
+     > + <b/>Adopting Zero‑Trust principles</b> to limit lateral movement and ensure every component is authenticated and authorized.
+
    - How do you integrate security into the DevOps pipeline?
+     > <b/>Possible answer</b>:
+     > + Shifting security left by adding code scanning, dependency checks, and threat modeling early in development.
+     > + Automating security tests (SAST, SCA, DAST, container scanning) directly in CI/CD pipelines.
+     > + Protecting secrets and credentials using secure vaults and enforcing least‑privilege access.
+     > + Hardening build and deployment environments with secure configurations, signed artifacts, and trusted base images.
+     > + Monitoring and logging pipeline activity to detect anomalies or unauthorized changes.
+     > + Using policy‑as‑code to enforce security standards consistently across infrastructure and deployments.
+
      
    - Why is it important to do both static application security testing (SAST) and dynamic application security testing (DAST)?
-     
-   - Can you explain the concept of "shift-left" in DevSecOps and its significance for security?
+     > + <b/>SAST (Static Application Security Testing)</b> analyzes source code or binaries from the inside, helping catch coding flaws early—before the application runs.
+     > + <b/>DAST (Dynamic Application Security Testing)</b> tests the application from the outside while it’s running, identifying real‑world issues like authentication flaws, logic errors, and misconfigurations.
      
    - ...
 
