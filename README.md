@@ -21,23 +21,53 @@
      + Defense in depth
      + Principle of least privilege
      + Security by Design
+     + AD Tiering
+     + Zero trust
      + Threat modeling
      + Three lines of defense
      + Cyber Kill Chain
      + CIA triad (Confidentiality/Integrity/Availability)
+     + PAW (Privileged Access Workstation)
      + ...
+
    - What are the key principles and best practices for designing a secure network architecture that effectively mitigates internal and external threats?
+      - <b/>Possible answer</b>: Zero Trust Architecture, Defense‑in‑Depth, Network Segmentation (dmz, prod subnets, non-prod subnets, workplace subnets, admin subnet, etc.) Micro‑segmentation & Software Defined Network (SDN), WAF, DDoS Protection, FW/NGFW, IPS/IDS, MFA (VPN, VDI, Email, Web portal), NAC, High Availability & Redundancy, Least Privilege, Secure‑by‑Design, Threat Modeling, Secure Configuration Baselines, Identity‑centric Security, Encryption in transit, Monitoring & Telemetry,    
+
    - Provide an overview of the main security controls and measures to mitigate external threats.
+      - <b/>Possible answer</b>: MFA (VPN, VDI, Email, Web portal), DDoS Protection, Secure Email Gateway, FW/NGFW, WAF, IDS/IPS, EDR/XDR, Vulnerability Management, Patch Management, Threat Intelligence, Network Segmentation, etc. 
+
    - Provide an overview of the main security controls and measures to mitigate insider threats.
-   - What are the key security considerations and best practices (e.g., bastion, PAW) to control and monitor remote administrative access to critical systems and networks?
+      - <b/>Possible answer</b>: Privileged Access Management (PAM), Data Loss Prevention (DLP), Strong IAM (MFA, Conditional Access), EDR/XDR, AV, Segregation of Duties (SoD), Just‑In‑Time (JIT) Access, NAC, Network Segmentation (dmz, prod subnets, non-prod subnets, workplace subnets, admin subnet, etc.), Vulnerability Management, Patch Management, Endpoint Hardening, Logging & Auditing, ...
+        
+   - What are the key security considerations and best practices to control and monitor remote administrative access to critical systems and networks?
+      - <b/>Possible answer</b>: Bastion Host / Jump Server + MFA, PAW (Privileged Access Workstation), Conditional Access, Just‑Enough‑Administration (JEA) and Just‑In‑Time (JIT) Privileged Access, Session Recording, Admin network isolation, Tiered administration, Secure credential hygiene, etc.
+
    - What are the key benefits and challenges associated with AD tiering, and how does it contribute to reducing the risk of unauthorized access and lateral movement by threat actors?
+      - <b/>Benefits</b>: Tier 0/1/2, Strong privilege separation, Reduced lateral movement, Credential theft mitigation, Clear administrative boundaries ...
+      - <b/>Challenges</b>: Cultural/Process change, Legacy system compatibility, Administrative overhead & operational complexity, ...
+
    - What are the critical considerations when designing an Active Directory security strategy to mitigate common security risks such as credential theft, privilege escalation, and lateral movement within the network?
+      - <b/>Possible answer</b>: AD Tiering, PAM & JIT Access (Bastion + MFA), LAPS, Credential Guard & LSA Protection, Secure Service Accounts (gMSA), Group Policy Hardening, ACLs Hardening, ADCS Hardening, Robust Password Policies, Domain Controller Hardening, SMB & LDAP signing, Attack Path Reduction (BloodHound & PingCastle insights), Monitoring for Golden Ticket / Silver Ticket, EDR/AV, SOC AD use cases, ...
+
    - What measures can be implemented to enhance the security of an organization's supply chain and mitigate potential supply chain-related security risks?
+      - <b/>Possible answer</b>: Vendor Risk Management (Secure procurement processes and Contractual security requirements), Code Signing & Integrity Validation, Dependency Scanning, Zero Trust for Third Parties, Continuous Monitoring of Suppliers, Firmware/Hardware Integrity Checks, ...
+
    - How would you design a secure architecture for an Internet-facing (B2C) Web application hosted on-premises?
+      - <b/>Possible answer</b>: WAF, anti-DDoS, DMZ, API Gateway, Network segmenation, High Availability & Redundancy, Secure SDLC, Server & Database Hardening, SIEM/XDR, ...
+
    - How would you design a secure architecture for a cloud-based application?
+      - <b/>Possible answer</b>: Cloud‑Native WAF / API Protection, Identity‑First Security (IAM, RBAC, ABAC), Network Segmentation (VPC/VNet), CI/CD Security (DevSecOps), Encryption (KMS, BYOK), Cloud Security Posture Management (CSPM), ...
+        
    - When designing a cloud security architecture, what are the key factors to consider in ensuring data confidentiality, integrity, and availability, as well as compliance with relevant regulations and standards?
+      - <b/>Possible answer</b>: Shared Responsibility Model, Data Classification, Encryption, Key Management, IAM, Compliance (ISO, SOC2, GDPR, PCI), DR/BCP, Secure APIs, Monitoring, Governance & Policy Enforcement, Cloud Security Posture Management (CSPM), ...
+      
    - Why is operational resilience crucial in the context of cybersecurity, and how does it contribute to ensuring the continuity of business operations and the ability to withstand and recover from cyber incidents?
+      - <b/>Possible answer</b>: Crisis Management, Business Continuity Plan (Business Impact Analysis, Recovery Time Objective (RTO), Recovery Point Objective (RPO)), Disaster Recovery Plan (High availability, Failover, Load-balancing, Redundancy, Multi-Datacenter and Multi-Cloud Resilience), Incident Response, Ransomware Preparedness, Chaos Engineering,  Cyber Resilience Frameworks, ...
+
+             
    - In what ways do emerging technologies such as software-defined networking (SDN), zero trust networking, and secure access service edge (SASE) influence the design and evolution of secure network architectures, and how do these technologies align with the goal of enhancing overall network security and resilience?
+      - <b/>Possible answer</b>: Centralized Policy (SDN), Micro‑segmentation, Identity‑centric Access, Continuous Verification, Cloud‑native Edge Security (SASE), Reduced Attack Surface, Enhanced Visibility, Adaptive Access, Network Agility & Resilience, ...
+        
    - ...
 
 ----------------------------------------------------------------------
